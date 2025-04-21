@@ -1,0 +1,25 @@
+{
+  "stories": [
+    {
+      "slug": "I35-apt-story",
+      "headline": "I-35 expansion to demolish apartments",
+      "description": "A UT student lived in an affordable-housing apartment complex set to be demolished by the I-35 expansion, which also caused the demolition of dozens of businesses.",
+      "image": "I35-apt-story.jpg",
+      "source": "https://thedailytexan.com/2023/11/13/i-35-expansion-set-to-demolish-apartment-building-displacing-ut-students/"
+    },
+    {
+      "slug": "social-work",
+      "headline": "Historic building to face demolition",
+      "description": "A new UT football training facility would demolish the School of Social Work, which once housed University Junior High, the first intergrated middle school in Austin.",
+      "image": "social-work.jpg",
+      "source": "https://thedailytexan.com/2024/02/20/texas-athletics-announces-demolition-of-historic-building-to-expand-football-facilities/"
+    },
+    {
+      "slug": "TAs-investigation-story",
+      "headline": "University investigates protestors",
+      "description": "Two teaching assistants who were relieved of their positions for speaking in support of Palestine. The university investigated a group of students who protested the decision.",
+      "image": "TAs-investigation-story .jpg",
+      "source": "https://thedailytexan.com/2024/02/15/protestors-choose-to-accept-consequences-after-weeks-long-university-investigation/"
+    }
+  ]
+}
