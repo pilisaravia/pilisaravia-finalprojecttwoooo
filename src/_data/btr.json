@@ -4,19 +4,22 @@
       "slug": "propalestine-story",
       "headline": "Students protest UT's response to Israel-Hamas war",
       "image": "propalestine-story.jpg",
-      "source": "https://thedailytexan.com/2023/11/09/students-walk-out-of-class-in-solidarity-with-palestine-in-protest-of-university-response-weapons-investment/"
+      "source": "https://thedailytexan.com/2023/11/09/students-walk-out-of-class-in-solidarity-with-palestine-in-protest-of-university-response-weapons-investment/",
+      "btr": "cats-story.html"
     },
     {
       "slug": "cats-story",
       "headline": "I-35 expansion could displace cats",
       "image": "cats-story.jpg",
-      "source": "https://thedailytexan.com/2023/09/12/cat-feeding-community-urges-for-adoption-of-dozens-of-cats-before-i-35-expansion/"
+      "source": "https://thedailytexan.com/2023/09/12/cat-feeding-community-urges-for-adoption-of-dozens-of-cats-before-i-35-expansion/",
+      "btr": "cats-story.html"
     },
     {
       "slug": "cyfairbus-story",
       "headline": "Cy-Fair ISD limits bus services",
       "image": "cyfairbus-story.jpeg",
-      "source": "https://www.houstonpublicmedia.org/articles/news/transportation/2024/07/03/492625/cy-fair-isd-to-discontinue-bus-services-for-some-students/"
+      "source": "https://www.houstonpublicmedia.org/articles/news/transportation/2024/07/03/492625/cy-fair-isd-to-discontinue-bus-services-for-some-students/",
+      "btr": "cats-story.html"
     }
   ]
 }

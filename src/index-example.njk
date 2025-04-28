@@ -1,30 +1,61 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Index page title{% endblock %}
+{% block page_title %} Index page title{% endblock %}
 
 {% block page_description %}The index search description for this page goes here.{% endblock %}
 
 {% block content %}
+<div class="container p-4">
+  <h3 class="text-center"> Radio </h3>
+</div>
 <div class="container">
-  <h1>Main headline here</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
-  <div class="row">
-    {% for book in library.books %}
-      <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
-      </div>
-    {% endfor %}
+<div class="row justify-content-center">
+  <div class="col text-left">
+    <div>
+    <audio controls class="my-2 w-100">
+      <source src="img/restaurant-lawsuit.mp4" type="audio/mp4">
+      Your browser does not support the audio element.
+    </audio>
+    <p class="text-muted small mt-1">Restaurant lawsuit story for Houston Public Media</p>
+    </div>
+  <div>
+    <audio controls class="my-2 w-100">
+      <source src="img/debris-story.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <p class="text-muted small mt-1">Debris after Beryl story for Houston Public Media</p>
+  </div>  
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
+  <div>
+  <div class="col text-right">
+    <audio controls class="my-2 w-100">
+      <source src="img/fastcougar-story.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+  </audio>
+  <p class="text-muted small mt-1">University of Houston track star for Houston Public Media</p>
+  </div>
+  </div>
+  </div>
+</div>
+<div class="container">
+  <div class="container p-4">
+  <h3 class="text-center"> Broadcast </h3>
+</div>
+<div class="row justify-content-center">
+  <div class="col-md-6 text-center">
+    <video controls width="500" class="my-2 w-100">
+      <source src="img/anchor.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+    <p class="text-muted small mt-1">Anchoring for Reporting Texas TV</p>
+  </div>
+  <div class="col-md-6 text-center">
+    <video controls width="500" class="my-2 w-100">
+      <source src="img/SB2-story.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+    <p class="text-muted small mt-1">School voucher story for Reporting Texas TV</p>
+  </div>
+</div>
 </div>
 {% endblock %}

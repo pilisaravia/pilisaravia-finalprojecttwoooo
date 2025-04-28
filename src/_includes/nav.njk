@@ -7,19 +7,17 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
       <li class="nav-item">
-         <a class="nav-link" href="{{ relative_path }}mywork.html">my work</a>
+         <a class="nav-link" href="{{ relative_path }}mywork.html">My work</a>
       </li>
       <li class="nav-item">
-         <a class="nav-link" href="{{ relative_path }}index-example.html">Index example</a>
+         <a class="nav-link" href="{{ relative_path }}index-example.html">Multimedia</a>
       </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Library books
+            Behind the Reporting
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {% for book in library.books %}
-            <li><a class="dropdown-item" href="{{ relative_path }}books/{{ book.slug}}.html">{{ book.title }}</a></li>
-            {% endfor %}
+         <a class="nav-link" href="{{ relative_path }}Pro-Palestine-Protest.html">Pro-Palestine Protest</a>
           </ul>
         </li>
       </ul>

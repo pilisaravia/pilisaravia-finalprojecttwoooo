@@ -6,6 +6,20 @@
       "description": "This year, the district closed several schools and bilingual programs in the area due to a $35 million budget reduction.",
       "image": "SBISDinequality-story.jpeg",
       "source": "https://www.houstonpublicmedia.org/articles/education/schools/2024/07/30/495193/spring-branch-isds-elementary-school-closure-sparks-concern-over-impact-on-disadvantaged-students/"
+    },
+    {
+      "slug": "Berylrestaurants-story",
+      "headline": "CenterPoint sued on behalf of restaurants who lost food business during Beryl",
+      "description": "The class action lawsuit claims that CenterPoint failed to properly invest in infrastructure, maintain equipment and prepare for Hurricane Beryl.",
+      "image": "Berylrestaurants-story.jpeg",
+      "source": "https://www.houstonpublicmedia.org/articles/news/business/2024/07/16/493726/houston-restaurants-sue-centerpoint-hurricane-beryl/"
+    },
+    {
+      "slug": "Freedmenstown-story",
+      "headline": "Houston’s oldest Black settlement opens visitors center",
+      "description": "The Visitor Center aims to attract more people to Freedmen’s Town, bringing more tourists to local businesses and supporting community members.",
+      "image": "Freedmenstown-story.jpeg",
+      "source": "https://www.houstonpublicmedia.org/articles/news/local/2024/06/10/489944/houstons-oldest-black-settlement-celebrates-opening-of-new-visitors-center/"
     }
   ]
 }

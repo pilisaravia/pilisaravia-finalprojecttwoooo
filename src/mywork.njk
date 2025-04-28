@@ -1,27 +1,38 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}My Work{% endblock %}
+{% block page_title %} My Work{% endblock %}
 
 {% block page_description %}my favorite stories.{% endblock %}
 
 {% block content %}
-<article class="container">
-  <h1 class=text-center>The Daily Texan</h1>
-  <div class="row row-cols-1 row-cols-md-3 g-4 row-cols-lg-3">
+<article class="container p-4">
+  <h1 class=text-center >The Daily Texan</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4 row-cols-lg-3 p-4">
     {% for story in mywork.stories %}
   <div class="col">
     <div class="card h-100">
      <img src="./img/{{ story.image }}"; class="card-img-top">
       <div class="card-body">
-        <h5 class="card-title text-center">{{ story.headline }}</h5>
+        <h5><a href="{{ story.source }}" target="_blank">{{ story.headline }}</a></h5>
         <p class="card-text text-center">{{ story.description}}</p>
-        <div class="card-footer">
-  <a href="{{ story.source }}" class="card-link text-center">Read the story!</a>
-        </div>
       </div>
     </div>
   </div>
   {% endfor %}
 </div>
+  <h1 class=text-center p-4>Houston Public Media</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4 row-cols-lg-3 p-4">
+    {% for HPMstory in HPMstories.HPMstories %}
+  <div class="col">
+    <div class="card h-100">
+     <img src="./img/{{ HPMstory.image }}"; class="card-img-top">
+      <div class="card-body">
+        <h5><a href="{{ HPMstory.source }}" target="_blank">{{ HPMstory.headline }}</a></h5>
+        <p class="card-text text-center">{{ HPMstory.description}}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
 </article>
 {% endblock %}
