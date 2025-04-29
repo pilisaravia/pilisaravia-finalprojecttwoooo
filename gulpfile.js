@@ -21,6 +21,12 @@ gulp.task('default', (done) => {
     format,
     done
   );
+import imagemin from 'gulp-imagemin';
+
+gulp.task('images', () => {
+  return gulp.src('src/images/**/*')
+    .pipe(imagemin())  // <-- NO cache
+    .pipe(gulp.dest('dist/images'));
 });
 
 // run default tasks and then serve locally
