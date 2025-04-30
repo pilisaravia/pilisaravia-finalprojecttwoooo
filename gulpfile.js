@@ -20,8 +20,7 @@ gulp.task('default', (done) => {
     lint,
     format,
     done
-  );const gulp = require('gulp');
-  const imagemin = require('gulp-imagemin');
+  );
 });
 
 // run default tasks and then serve locally
